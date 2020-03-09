@@ -1,10 +1,16 @@
-package com.harish.learn2earn;
+package com.harish.streams;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamsPractice {
 
 	public static void main(String[] args) {
 
-		/*//Intermediate Operations
+		//Intermediate Operations
 		//--------------------------
 
 		//1) Map
@@ -63,7 +69,7 @@ public class StreamsPractice {
 
 		System.out.println(firstMatchedName);
 
-		Converting Streams to other data structures
+		//Converting Streams to other data structures
 		//-------------------------------------------------
 
 		// We can also change streams to ArrayList, HashMap, Sets etc. Goto Collectors class for more info. 	
@@ -76,7 +82,7 @@ public class StreamsPractice {
 		Stream<Integer> stream = list.stream();
 		Integer[] evenNumbersArr = stream.filter(i -> i%2 == 0).toArray(Integer[]::new);
 
-		System.out.println(evenNumbersArr);*/
+		System.out.println(evenNumbersArr);
 
 	}
 
